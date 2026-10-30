@@ -15,7 +15,7 @@ public class AmazonTest {
     public static void openBrow() {
 
         System.setProperty("webdriver.chrome.driver", "C:\\Program Files\\selenium\\chromedriver.exe");
-        ChromeOptions options = new ChromeOptions();//יצירת אובייקט
+        ChromeOptions options = new ChromeOptions();// create object
 //        options.addArguments("-incognito");
         driver = new ChromeDriver(options);
         driver.manage().window().maximize();
